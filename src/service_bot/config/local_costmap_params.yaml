@@ -1,0 +1,10 @@
+local_costmap:
+   global_frame: odom
+   robot_base_frame: base_footprint
+   update_frequency: 10 #decreased to 10 
+   publish_frequency: 10 #should probably follow the above
+   width: 3.0 #was 20, shouldnt this be maxed out by the obstacle_range
+   height: 3.0 #was 20, shouldnt this be maxed out by the obstacle_range
+   resolution: 0.03
+   static_map: false
+   rolling_window: true
