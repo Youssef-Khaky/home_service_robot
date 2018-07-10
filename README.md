@@ -1,3 +1,11 @@
-# home_service_robot
+# Home Service Robot
+In this project the goal is to simulate a full home service robot capable of navigating to pick up and deliver virtual objects.  
+Packages used in this project are:  
+1. gmapping
+2. turtlebot_teleop  
+3. turtlebot_rviz_launchers  
+4. turtlebot_gazebo  
+
 All the script files can be found in src/service_bot/batch_scripts/
-What is shown in this repo is the root of the catkin_ws
+
+This repo is the root of a catkin_ws
